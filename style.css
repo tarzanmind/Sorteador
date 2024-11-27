@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family:  "Henny Penny", system-ui;
+    background-color: black;
+    
+}
+body{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+   
+}
+img{
+    width: 350px;
+    display:block;
+    margin: 50px auto 20px auto;
+}
+
+h1{
+    color: aliceblue;
+    white-space: nowrap;
+    margin:0;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.inputNumber{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+input{
+    color: rgb(249, 249, 250);
+    margin: 20px;
+    outline: white;
+    background-color: rgb(73, 71, 71);
+    border:none;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 5px 15px ;
+    width: 200px;
+    height: 35px;    
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.477);
+}
+button{
+    background-color: green;
+    border: none;
+    width: 250px;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right:35px ;
+    padding-top:2px; 
+}
+
+button:hover{
+    opacity: 0.9;
+}
+button:active{
+    opacity: 0.7;
+ }
+ #result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+}
+@media screen and (max-width: 915px) {
+    .container {
+        width: 85%;;
+    }
+    input{
+        width: 150px;
+    }
+}
